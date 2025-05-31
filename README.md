@@ -26,6 +26,6 @@ Deploy using vercel with environment variable `API_KEY` set to your API key and 
 The SVG badge image will come at `<your vecel deployed link>/badge?repo=<repository link>`
 
 # How it work ?
-It uses OSO GraphQL API to fetch the `artifactId` using the repository URL and uses the `artifactId` to get projects that are dependent of that repository using SBOMs.
+It uses OSO GraphQL API to fetch the `artifactId` using the repository URL and uses the `artifactId` to get projects that are dependent on that repository using SBOMs.
 
 It uses Vercel's serverless functions which are easy to deploy and free.
