@@ -15,7 +15,7 @@ export default async function handler(req, res) {
   const now = Date.now();
   const cacheKey = repoUrl;
   if (cache[cacheKey] && now - cache[cacheKey].timestamp < CACHE_DURATION_MS) {
-    const svg = getBadgeSVG("SBOMs", cache[cacheKey].count);
+    const svg = getBadgeSVG("Supported Projects", cache[cacheKey].count);
     res.setHeader("Content-Type", "image/svg+xml");
     return res.status(200).send(svg);
   }
