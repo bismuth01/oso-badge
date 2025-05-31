@@ -27,7 +27,7 @@ export default async function handler(req, res) {
 
   cache[cacheKey] = { count, timestamp: now };
 
-  const svg = getBadgeSVG("SBOMs", count);
+  const svg = getBadgeSVG("Supported Projects", count);
   res.setHeader("Content-Type", "image/svg+xml");
   res.setHeader("Cache-Control", "no-cache");
   res.status(200).send(svg);
