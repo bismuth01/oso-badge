@@ -10,15 +10,15 @@ All supported repositories can be found [here](https://github.com/opensource-obs
 For [go-ethereum](https://github.com/ethereum/go-ethereum)
 
 ```
-![go-ethereum-badge]()
+![go-ethereum-badge](https://oso-badge-sbom.vercel.app/badge?repo=https://github.com/ethereum/go-ethereum)
 ```
 
-![go-ethereum-badge]()
+![go-ethereum-badge](https://oso-badge-sbom.vercel.app/badge?repo=https://github.com/ethereum/go-ethereum)
 
 For [go-libp2p](https://github.com/libp2p/go-libp2p)
 
 ```
-![go-libp2p]()
+![go-libp2p](https://oso-badge-sbom.vercel.app/badge?repo=https://github.com/libp2p/go-libp2p)
 ```
 
-![go-libp2p]()
+![go-libp2p](https://oso-badge-sbom.vercel.app/badge?repo=https://github.com/libp2p/go-libp2p)
