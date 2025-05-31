@@ -19,8 +19,9 @@ For [go-libp2p](https://github.com/libp2p/go-libp2p)
 ![go-libp2p](https://oso-badge-sbom.vercel.app/badge?repo=https://github.com/libp2p/go-libp2p)
 
 # How do use
-Clone this repository, rename `.env-local` to `.env` and fill in your OSO API key.
-Deploy using vercel and done!
+Clone this repository and use `npm i` to install all the dependencies.
+Get an API key from [OSO](https://www.opensource.observer/) (look into Getting Started Docs for further help).
+Deploy using vercel with environment variable `API_KEY` set to your API key and done!
 
 The SVG badge image will come at `<your vecel deployed link>/badge?repo=<repository link>`
 
