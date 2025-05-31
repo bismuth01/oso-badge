@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "functions": {
+    "api/badge.js": {
+      "memory": 128,
+      "maxDuration": 10
+    }
+  },
+  "routes": [{ "src": "/badge", "dest": "/api/badge.js" }]
+}
